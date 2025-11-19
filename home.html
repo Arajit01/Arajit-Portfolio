@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peronal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/47131e3c12.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/Logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="/home.html"><i></i>Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="/Searvices.html">Services</a></li>
+                    <li><a href="/Portfolio.html">Portfolio</a></li>
+                    <li><a href="/Contuct.html">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Logo/Graphic Designer</p>
+                <h1>Hello, I'm <span>Arajit(AR)</span> <br>halder From Kolkata</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------about------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/User.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hi, I’m Arajit Halder, a passionate logo and graphic designer dedicated to transforming ideas into visually stunning creations. With 5 years of experience in the design industry, I specialize in crafting unique brand identities that leave lasting impressions.</p><br>
+                    <p>From sleek, minimalist logos to bold, eye-catching graphics, I thrive on bringing concepts to life through thoughtful design and attention to detail. I believe that great design not only looks good but also tells a story and connects with audiences on a deeper level.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Logo</span><br>Branding & icon logo designer</li>
+                            <li><span>Graphic Designer</span><br>Animated loop & promotional post design</li>
+                            <li><span>CRM Process Manegement</span><br>Back office CRM process manegment & team lead </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>Branding & icon logo designer</li>
+                            <li><span>2020 - Current</span><br>Team leader at DeeGlory Solution Pvt</li>
+                            <li><span>2017-2020</span><br>benner poster design at a shop </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021</span><br>Logo degine tranig from Udemy</li>
+                            <li><span>2016</span><br>12th Pass from Simurali high school</li>
+                            <li><span>2020</span><br>BA from kalyani university</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+<!-----------------------Services------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-pen-nib"></i>
+                <H2>Custom Logo Design</H2>
+                <p>Your logo is the core of your brand identity. I create unique, handcrafted logos that capture your brand’s essence and make a lasting impression. Each design is tailored to reflect your values, resonate with your audience, and stand out in a competitive market.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-bezier-curve"></i>
+                <H2>Branding Packages</H2>
+                <p>Elevate your brand with cohesive, professionally designed branding packages. From logos and color palettes to business cards and social media assets, I provide everything you need to create a strong, unified brand identity.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-slack"></i>
+                <H2>Graphic Design</H2>
+                <p>Bring your ideas to life with eye-catching, creative designs. I offer custom graphic design services for marketing materials, social media, print, and more – all crafted to enhance your brand and captivate your audience.</p>
+                <a href="#">Learn more</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-----------------------portfolio------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Logo & Brand Identity Design Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="" alt="">
+            </div>
+            <div class="work">
+                <img src="" alt="">
+            </div>
+            <div class="work">
+                <img src="" alt="">
+            </div>
+            <div class="work">
+                <img src="" alt="">
+            </div>
+            <div class="work">
+                <img src="" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------contact--------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>arajithalder13@gmail.com</p>
+                <p> <i class="fa-solid fa-phone-volume"></i>+916295577953</p>
+                <div class="social-icons">
+                   <a href="https://www.facebook.com/arajit.halder.58"><i class="fa-brands fa-facebook"></i></a>
+                   <a href="https://www.instagram.com/arajit.halder.58"><i class="fa-brands fa-instagram"></i></a> 
+                   <a href="https://www.linkedin.com/in/arajit-halder-8804a2205/"><i class="fa-brands fa-linkedin"></i></a>
+                   <a href="https://wa.me/916295577953"><i class="fa-brands fa-whatsapp"></i></a>  
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+            
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright 2024 © artboard studio. All Rights Reserved.</p>
+    </div>
+</div>
+
+
+
+    <script>
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link")
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+}
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxjtjPnstg-ffEGa2_hn8rFKbm9peA7SfQFiRZ_NDRgtwmIQ2QImpCfE49ktPlFpFwA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
