@@ -150,6 +150,12 @@ nav ul li a:hover::after{
     display: block;
 }
 
+/* contact aside cards */
+.info-card{background:var(--card);padding:16px;border-radius:12px;border:1px solid rgba(255,255,255,0.04);margin-bottom:12px}
+.countdown{display:flex;gap:12px;margin-top:10px}
+.countdown div{text-align:center}
+.countdown span{display:block;font-weight:800;font-size:20px}
+
 
 /*----------------------services-------------------*/
 #services{
@@ -363,4 +369,5 @@ nav ul .fa-solid{
     color: #61b752;
     margin-top: -40px;
     display: block;
+
 }
