@@ -150,11 +150,6 @@ nav ul li a:hover::after{
     display: block;
 }
 
-/* contact aside cards */
-.info-card{background:var(--card);padding:16px;border-radius:12px;border:1px solid rgba(255,255,255,0.04);margin-bottom:12px}
-.countdown{display:flex;gap:12px;margin-top:10px}
-.countdown div{text-align:center}
-.countdown span{display:block;font-weight:800;font-size:20px}
 
 /* contact aside cards */
 .info-card{background:var(--card);padding:16px;border-radius:12px;border:1px solid rgba(255,255,255,0.04);margin-bottom:12px}
@@ -377,4 +372,5 @@ nav ul .fa-solid{
     display: block;
 
 }
+
 
