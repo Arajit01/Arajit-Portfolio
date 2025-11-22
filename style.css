@@ -372,5 +372,23 @@ nav ul .fa-solid{
     display: block;
 
 }
+/* utilities & responsive */
+@keyframes float{0%{transform:translateY(0)}50%{transform:translateY(-8px)}100%{transform:translateY(0)}}
+@media (max-width:1100px){
+  .hero-grid{grid-template-columns:1fr 380px}
+  .portrait-frame{width:360px;height:620px}
+}
+@media (max-width:900px){
+  .hero-grid{grid-template-columns:1fr}
+  .portrait-frame{width:280px;height:480px;margin:28px auto}
+  .grid.cards{grid-template-columns:repeat(2,1fr)}
+  .about-grid{grid-template-columns:1fr}
+  .contact-grid{grid-template-columns:1fr}
+  .footer-inner{flex-direction:column;gap:6px}
+}
+@media (max-width:520px){
+  .grid.cards{grid-template-columns:1fr}
+  .hero-title{font-size:28px}
+}
 
 
